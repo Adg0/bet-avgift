@@ -1,0 +1,28 @@
+# hardhat
+artifacts
+cache
+deployments
+node_modules
+
+node_modules/
+.env
+
+cache/
+artifacts/
+
+coverage*
+typechain/
+
+# vscode
+.vscode
+.vscode/*
+!.vscode/settings.json.default
+!.vscode/launch.json.default
+!.vscode/extensions.json.default
+
+.yalc
+yalc.lock
+
+contractsInfo.json
+deployments/hardhat
+deployments/localhost
